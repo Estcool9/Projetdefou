@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quatre enquêtes — dossier 2026-PE</title>
+<meta name="description" content="Quatre enquêtes sur les perturbateurs endocriniens et les difficultés d’apprentissage. Dans chacune, un perturbateur endocrinien figure parmi les suspects ; il n’est coupable que deux fois.">
+<meta name="color-scheme" content="dark">
+<meta property="og:title" content="Quatre enquêtes — dossier 2026-PE">
+<meta property="og:description" content="Un dossier d’enquête : quatre affaires, des suspects, des indices tirés d’études réelles.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Oswald:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='3' fill='%23b79a6e'/%3E%3Cpath d='M4 10h9l2 3h13v13H4z' fill='%238a6f3e'/%3E%3Ccircle cx='23' cy='9' r='4' fill='%238e2b1e'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<a class="skip-link" href="#contenu">Aller au contenu du dossier</a>
+
+<div class="desk">
+  <div class="lamp" aria-hidden="true"></div>
+
+  <!-- ─────────── Le dossier fermé, posé sur le bureau ─────────── -->
+  <section class="stage" id="stage">
+    <div class="stage-inner">
+      <button type="button" class="folder" id="folderBtn" aria-expanded="false" aria-controls="reader">
+        <span class="folder-shadow" aria-hidden="true"></span>
+        <span class="folder-back" aria-hidden="true">
+          <span class="folder-tab-paper"></span>
+        </span>
+        <span class="folder-papers" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="folder-cover" aria-hidden="true">
+          <span class="folder-grain"></span>
+          <span class="folder-tab"></span>
+          <span class="folder-label">
+            <span class="fl-line">Dossier d’instruction</span>
+            <span class="fl-num">N<sup>o</sup> 2026-PE</span>
+            <span class="fl-rule"></span>
+            <span class="fl-title">Quatre enquêtes</span>
+            <span class="fl-sub">un suspect permanent</span>
+            <span class="fl-foot">Perturbateurs endocriniens<br>et difficultés d’apprentissage</span>
+          </span>
+          <span class="folder-stamp">Pièces<br>jointes</span>
+          <span class="folder-clip"></span>
+        </span>
+        <span class="sr-only">Ouvrir le dossier</span>
+      </button>
+
+      <p class="stage-hint" id="stageHint">
+        <span class="hint-pulse" aria-hidden="true"></span>
+        Cliquez sur le dossier pour l’ouvrir
+      </p>
+    </div>
+  </section>
+
+  <!-- ─────────── Le dossier ouvert ─────────── -->
+  <section class="reader" id="reader" hidden aria-label="Dossier ouvert">
+    <div class="reader-frame">
+      <header class="reader-bar">
+        <button type="button" class="btn-ghost" id="closeBtn">Fermer le dossier</button>
+        <span class="reader-ref">Dossier n<sup>o</sup> 2026-PE</span>
+      </header>
+
+      <div class="reader-body">
+        <div class="sheet-wrap">
+          <article class="sheet" id="contenu" tabindex="-1"></article>
+          <div class="flipper" id="flipper" aria-hidden="true"><span></span></div>
+        </div>
+        <nav class="tabs" id="tabs" aria-label="Sections du dossier"></nav>
+      </div>
+
+      <nav class="pager" aria-label="Navigation entre les pages">
+        <button type="button" class="btn-page" id="prevBtn">Page précédente</button>
+        <span class="pager-info" id="pagerInfo"></span>
+        <button type="button" class="btn-page" id="nextBtn">Page suivante</button>
+      </nav>
+    </div>
+  </section>
+</div>
+
+<script src="assets/js/figures.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
