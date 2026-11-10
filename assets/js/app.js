@@ -93,12 +93,10 @@
             '</dl>' +
           '</div>' +
 
-          '<h2>Le résultat</h2>' +
-          '<p>Sur les quatre enquêtes, le perturbateur endocrinien est coupable <strong>deux fois</strong>. Dans les deux autres, la vraie cause est ailleurs — et elle est parfois bien plus simple à corriger. C’est, en résumé, l’état de la science sur la question.</p>' +
-
           '<div class="warn">' +
-            '<h3>Avertissement</h3>' +
-            '<p>Les quatre sujets sont <strong>fictifs</strong>. Les suspects, les mécanismes et tous les chiffres des indices proviennent d’études scientifiques réelles, citées dans le bilan. Aucune de ces études ne permet de désigner la cause des difficultés d’une personne réelle : elles mesurent des tendances sur des centaines ou des milliers d’enfants.</p>' +
+            '<h3>Important</h3>' +
+            '<p>On a inventé tout ce qui identifie les personnes : nom, âge, ville… Mais les données scientifiques viennent de vraies sources, citées dans le bilan.</p>' +
+            '<p>Autre chose : les études mesurent des tendances sur des milliers de personnes, et non sur un cas isolé. On ne peut donc pas diagnostiquer la cause des difficultés pour un cas ciblé.</p>' +
           '</div>' +
         '</aside>' +
       '</div>';
