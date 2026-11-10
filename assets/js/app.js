@@ -1,4 +1,4 @@
-/* Dossier 2026-PE — ouverture du dossier, navigation entre les pages, accusations. */
+/* Perturbateurs endocriniens — ouverture du dossier, navigation entre les pages, accusations. */
 (function () {
   'use strict';
 
@@ -62,7 +62,7 @@
       '<header class="page-head">' +
         '<span class="page-kicker">Feuille récapitulative</span>' +
         '<h1>' + m.titre + '<br>' + m.sousTitre + '</h1>' +
-        '<p class="page-sub">Dossier n<sup>o</sup> ' + m.numero + ' — quatre enquêtes indépendantes, seize suspects, dix études</p>' +
+        '<p class="page-sub">' + m.numero + ' — quatre enquêtes indépendantes, seize suspects, dix études</p>' +
       '</header>' +
 
       '<p class="recap-q">' + m.question + '</p>' +
@@ -205,7 +205,7 @@
       '<h2>Études citées</h2>' +
       '<ol class="sources">' + b.sources.map(function (s) { return '<li>' + s + '</li>'; }).join('') + '</ol>' +
 
-      '<p class="signature">Dossier n<sup>o</sup> ' + D.meta.numero + ' — ' + D.meta.titre + ', ' + D.meta.sousTitre + '.<br>' +
+      '<p class="signature">' + D.meta.numero + ' — ' + D.meta.titre + ', ' + D.meta.sousTitre + '.<br>' +
       'Les sujets sont fictifs ; les suspects, les mécanismes et les chiffres ne le sont pas.</p>';
   }
 
@@ -325,7 +325,7 @@
     } else {
       location.hash = PAGES[index].id;
     }
-    document.title = PAGES[index].tabLong + ' — dossier 2026-PE';
+    document.title = PAGES[index].tabLong + ' — perturbateurs endocriniens';
   }
 
   function go(index, silent) {

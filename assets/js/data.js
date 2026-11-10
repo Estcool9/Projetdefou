@@ -1,7 +1,7 @@
 /* Contenu du dossier. Les sujets sont fictifs ; les études, les mécanismes et les chiffres sont réels. */
 window.DOSSIER = {
   meta: {
-    numero: '2026-PE',
+    numero: 'Perturbateurs endocriniens',
     titre: 'Quatre enquêtes',
     sousTitre: 'un suspect permanent',
     question: 'Les perturbateurs endocriniens contribuent-ils aux difficultés d’apprentissage des nouvelles générations ?',

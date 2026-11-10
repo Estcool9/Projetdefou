@@ -1,4 +1,4 @@
-# Dossier 2026-PE — Quatre enquêtes
+# Perturbateurs endocriniens — Quatre enquêtes
 
 Site d'un travail de présentation sur les perturbateurs endocriniens et les
 difficultés d'apprentissage. Quatre enquêtes, des suspects, des indices tirés

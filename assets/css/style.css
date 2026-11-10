@@ -1,5 +1,5 @@
 /* ============================================================
-   Dossier 2026-PE — feuille de style
+   Perturbateurs endocriniens — feuille de style
    Un bureau sombre, un dossier en carton kraft, des pages en papier.
    ============================================================ */
 
@@ -188,11 +188,11 @@ body {
   text-align: left; color: #30210c;
 }
 .fl-line { font-family: var(--type); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; opacity: .75; }
-.fl-num { font-family: var(--type); font-size: 13px; letter-spacing: .05em; }
+.fl-num { font-family: var(--type); font-size: clamp(10px, 2.6vmin, 13px); letter-spacing: .04em; }
 .fl-rule { height: 2px; background: #30210c; opacity: .45; margin: 9px 0 10px; }
 .fl-title { font-family: var(--disp); font-size: clamp(21px, 5.6vmin, 30px); font-weight: 600; line-height: .98; text-transform: uppercase; }
 .fl-sub { font-family: var(--disp); font-size: clamp(14px, 3.4vmin, 19px); font-weight: 400; line-height: 1.05; color: #6d2317; text-transform: uppercase; }
-.fl-foot { margin-top: 14px; font-family: var(--serif); font-size: 12px; line-height: 1.35; opacity: .78; }
+.fl-foot { margin-top: clamp(9px, 2.4vmin, 14px); font-family: var(--serif); font-size: clamp(9.5px, 2.4vmin, 12px); line-height: 1.34; opacity: .8; }
 
 .folder-stamp {
   position: absolute; right: 9%; bottom: 9%;
