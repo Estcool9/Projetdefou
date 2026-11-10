@@ -187,7 +187,7 @@
 
       fig('flynn', 'Le recul du QI moyen observé en Norvège, et ce que l’étude permet — ou non — d’en conclure.') +
 
-      '<div class="two-col">' +
+      '<div class="two-col bilan-lists">' +
         '<div><h2>Établi</h2><ul>' + b.etabli.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul></div>' +
         '<div><h2>Non établi</h2><ul>' + b.nonEtabli.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul></div>' +
       '</div>' +

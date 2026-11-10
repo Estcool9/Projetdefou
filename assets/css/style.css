@@ -516,7 +516,13 @@ ol.indices li::before {
 
 .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
 .two-col ul { margin: 0; padding-left: 17px; }
-.two-col li { margin-bottom: 7px; font-size: 15.3px; }
+.two-col li { margin-bottom: 14px; font-size: 15.3px; }
+.two-col li p { margin: 0 0 .5em; }
+.two-col li p:last-child { margin-bottom: 0; }
+/* Établi / Non établi : une seule colonne, mesure de lecture confortable */
+.bilan-lists { grid-template-columns: 1fr; gap: 10px; }
+.bilan-lists ul { max-width: 72ch; }
+.bilan-lists h2 { margin-top: 20px; }
 
 .chiffres { width: 100%; border-collapse: collapse; font-size: 14.6px; }
 .chiffres td { border-bottom: 1px solid var(--rule); padding: 8px; }
