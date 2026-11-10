@@ -5,13 +5,9 @@ window.DOSSIER = {
     titre: 'Quatre enquêtes',
     sousTitre: 'un suspect permanent',
     question: 'Les perturbateurs endocriniens contribuent-ils aux difficultés d’apprentissage des nouvelles générations ?',
-    // ▼▼ À REMPLACER AVANT DE PUBLIER ▼▼
-    auteurs: ['Bigot Mathis', 'NOM PRÉNOM 2', 'NOM PRÉNOM 3'],
-    classe: 'CLASSE',
-    etablissement: 'ÉTABLISSEMENT',
-    matiere: 'Sciences',
-    remise: 'à rendre le 10 décembre 2026 au plus tard'
-    // ▲▲ fin des champs à remplacer ▲▲
+    auteurs: ['Bigot Mathis', 'Chapelin Amandric', 'Benard Coralie'],
+    classe: 'CPI 1',
+    matiere: 'Science du vivant'
   },
 
   pages: [

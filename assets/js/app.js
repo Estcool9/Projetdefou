@@ -54,15 +54,12 @@
         '<span class="cl-go">ouvrir</span></button></li>';
     }).join('');
 
-    var auteurs = m.auteurs.map(function (a) {
-      return '<span class="todo">' + a + '</span>';
-    }).join('<br>');
+    var auteurs = m.auteurs.join('<br>');
 
     return '' +
       '<header class="page-head">' +
         '<span class="page-kicker">Feuille récapitulative</span>' +
         '<h1>' + m.titre + '<br>' + m.sousTitre + '</h1>' +
-        '<p class="page-sub">' + m.numero + ' — quatre enquêtes indépendantes, seize suspects, dix études</p>' +
       '</header>' +
 
       '<p class="recap-q">' + m.question + '</p>' +
@@ -91,10 +88,8 @@
           '<div class="ident">' +
             '<dl>' +
               '<dt>Réalisé par</dt><dd>' + auteurs + '</dd>' +
-              '<dt>Classe</dt><dd><span class="todo">' + m.classe + '</span></dd>' +
-              '<dt>Établissement</dt><dd><span class="todo">' + m.etablissement + '</span></dd>' +
+              '<dt>Classe</dt><dd>' + m.classe + '</dd>' +
               '<dt>Matière</dt><dd>' + m.matiere + '</dd>' +
-              '<dt>Remise</dt><dd>' + m.remise + '</dd>' +
             '</dl>' +
           '</div>' +
 
