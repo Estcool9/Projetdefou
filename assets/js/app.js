@@ -69,12 +69,12 @@
           '<h2>Les quatre enquêtes</h2>' +
           '<ul class="case-links">' + liens + '</ul>' +
 
-          '<h2>Comment lire ce dossier</h2>' +
+          '<h2>Comment fonctionne ce dossier</h2>' +
           '<div class="howto">' +
-            '<div class="howto-item"><b>1</b><p>Chaque enquête s’ouvre sur une problématique et les pièces du dossier : cinq paragraphes qui posent la situation, des schémas, puis les indices.</p></div>' +
-            '<div class="howto-item"><b>2</b><p>À droite, les suspects. Dans chaque enquête, l’un d’eux est un perturbateur endocrinien, et il y a toujours une vraie raison de le soupçonner.</p></div>' +
-            '<div class="howto-item"><b>3</b><p>Chaque indice met un ou plusieurs suspects hors de cause. Quand vous êtes décidé, cliquez sur <em>Accuser</em> : le dossier répond, puis donne la solution complète.</p></div>' +
-            '<div class="howto-item"><b>4</b><p>Le piège : le perturbateur endocrinien n’est coupable que dans deux enquêtes sur quatre. Accuser par réflexe fait perdre l’enquête.</p></div>' +
+            '<div class="howto-item"><b>1</b><p>Chaque enquête s’ouvre sur une problématique et les pièces du dossier : les paragraphes expliquent la situation, ainsi que les schémas, puis les indices.</p></div>' +
+            '<div class="howto-item"><b>2</b><p>À droite, les différents suspects. Dans chaque enquête, l’un d’eux est un perturbateur endocrinien.</p></div>' +
+            '<div class="howto-item"><b>3</b><p>Chaque indice met un ou plusieurs suspects hors de cause. Grâce aux indices, il faut cliquer sur celui que vous pensez coupable. Puis la réponse sera donnée.</p></div>' +
+            '<div class="howto-item"><b>4</b><p>Les enquêtes ne sont pas reliées entre elles.</p></div>' +
           '</div>' +
 
           '<h2>Le mobile commun</h2>' +
