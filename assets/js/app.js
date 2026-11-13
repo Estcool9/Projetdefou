@@ -112,7 +112,7 @@
     var suspects = c.suspects.map(function (s) {
       return '<article class="suspect' + (s.pe ? ' is-pe' : '') + '" data-ref="' + s.ref + '">' +
         '<div class="suspect-head"><span class="suspect-ref">' + s.ref + '</span><h3>' + s.nom + '</h3></div>' +
-        '<span class="s-type">' + s.type + (s.pe ? ' — suspect imposé du dossier' : '') + '</span>' +
+        '<span class="s-type">' + s.type + '</span>' +
         '<dl>' +
           '<dt>Identité</dt><dd>' + s.identite + '</dd>' +
           '<dt>Pourquoi on le soupçonne</dt><dd>' + s.soupcon + '</dd>' +
