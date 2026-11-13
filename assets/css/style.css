@@ -458,13 +458,11 @@ ol.indices li::before {
   background: var(--paper-shade); border: 1px solid var(--rule); border-left: 4px solid var(--ink-soft);
   padding: 14px 16px;
 }
-.suspect.is-pe { border-left-color: var(--seal); background: var(--seal-wash); }
 .suspect-head { display: flex; align-items: baseline; gap: 9px; margin-bottom: 3px; }
 .suspect-ref {
   font-family: var(--type); font-size: 12px; font-weight: 700; color: #fff;
   background: var(--ink-soft); padding: 1px 7px; border-radius: 2px;
 }
-.suspect.is-pe .suspect-ref { background: var(--seal); }
 .suspect h3 { font-size: 15px; color: var(--ink); margin: 0; letter-spacing: .04em; }
 .suspect .s-type { font-family: var(--type); font-size: 10.5px; color: var(--ink-soft); display: block; margin-bottom: 9px; }
 .suspect dl { margin: 0; display: grid; gap: 7px; }
