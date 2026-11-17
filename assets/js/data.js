@@ -403,7 +403,7 @@ window.DOSSIER = {
     ],
     ia: {
       titre: 'Utilisation de l’intelligence artificielle',
-      texte: 'Nous avons utilisé une intelligence artificielle, principalement Claude, pour construire la forme du site, corriger les fautes d’orthographe et vérifier que les informations reprises dans ce dossier sont réellement exactes.'
+      texte: 'Nous avons utilisé une intelligence artificielle, principalement Claude, pour construire la forme du site et le rendre plus propre, corriger les fautes d’orthographe et vérifier que les informations reprises dans ce dossier sont réellement exactes.'
     }
   }
 };
