@@ -403,7 +403,7 @@ window.DOSSIER = {
     ],
     ia: {
       titre: 'Utilisation de l’intelligence artificielle',
-      texte: 'Nous avons utilisé une intelligence artificielle, principalement Claude, pour construire la forme du site et le rendre plus propre, corriger les fautes d’orthographe et vérifier que les informations reprises dans ce dossier sont réellement exactes. Les schémas, nous les avons d’abord dessinés nous-mêmes, puis Claude les a remis au propre.'
+      texte: 'On a utilisé Claude pour construire la forme du site et le rendre plus propre, corriger les fautes d’orthographe et vérifier que les informations reprises dans ce dossier sont réellement exactes. Les schémas, nous les avons d’abord dessinés nous-mêmes, puis Claude les a remis au propre.'
     }
   }
 };
