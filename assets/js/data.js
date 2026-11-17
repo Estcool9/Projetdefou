@@ -374,10 +374,10 @@ window.DOSSIER = {
       '<p>Le plomb montre qu’une substance polluante peut avoir des effets nocifs importants sur le cerveau sans que la société en soit immédiatement consciente. Pendant longtemps, l’exposition au plomb a été considérée comme acceptable, avant que les recherches ne démontrent qu’elle diminuait les capacités intellectuelles.</p><p>En 2022, <strong>Michael McFarland, Matt Hauer et Aaron Reuben</strong> ont chiffré ce coût aux États-Unis dans la revue <em>PNAS</em>. L’essence au plomb y aurait coûté environ <strong>824 millions de points de QI</strong>, soit 2,6 points par personne en moyenne, et jusqu’à 5,9 points pour la génération née entre 1966 et 1970. Plus de 170 millions d’Américains vivants aujourd’hui, plus de la moitié de la population, avaient dans l’enfance une plombémie supérieure au seuil de préoccupation.</p>'
     ],
     nonEtabli: [
-      'La cause des difficultés d’une personne réelle. Les études comparent des groupes de centaines ou de milliers d’enfants.',
-      'Le lien de cause à effet chez l’humain : les cohortes observent des associations, la causalité vient du laboratoire.',
-      'Qu’une substance agisse seule. Dans la vie réelle, plusieurs causes s’additionnent le plus souvent.',
-      'Que les générations récentes soient moins intelligentes. Le QI mesure la réussite à certains tests, pas l’intelligence entière.'
+      'La cause des difficultés d’un enfant en particulier, car les études portent sur de grandes populations et non sur des cas individuels.',
+      'Un lien de cause à effet direct chez l’humain, car les études montrent surtout des associations entre exposition et effets observés.',
+      'L’action d’une seule substance isolée, car les expositions réelles impliquent généralement plusieurs facteurs et substances.',
+      'Une baisse globale de l’intelligence des nouvelles générations, car le QI ne mesure qu’une partie des capacités cognitives.'
     ],
     sources: [
       'Caporale N. et al., « From cohorts to molecules: adverse impacts of endocrine disrupting mixtures », <em>Science</em>, vol. 375, n° 6582, 2022 — cohorte SELMA, projet européen EDC-MixRisk. <span class="src-use">Enquête 1</span>',
