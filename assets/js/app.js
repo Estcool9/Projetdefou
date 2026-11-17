@@ -197,6 +197,13 @@
       '<h2>Études citées</h2>' +
       '<ol class="sources">' + b.sources.map(function (s) { return '<li>' + s + '</li>'; }).join('') + '</ol>' +
 
+      (b.ia ? '<section class="ia-note">' +
+        '<h2>' + b.ia.titre + '</h2>' +
+        '<p>' + b.ia.chapo + '</p>' +
+        '<ul class="ia-list">' + b.ia.faits.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul>' +
+        '<p class="ia-nous">' + b.ia.nous + '</p>' +
+      '</section>' : '') +
+
       '<p class="signature">' + D.meta.numero + ' — ' + D.meta.titre + ', ' + D.meta.sousTitre + '.<br>' +
       'Les sujets sont fictifs ; les suspects, les mécanismes et les chiffres ne le sont pas.</p>';
   }
