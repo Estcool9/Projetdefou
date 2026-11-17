@@ -176,10 +176,10 @@
         '<p class="page-sub">' + b.chapo + '</p>' +
       '</header>' +
 
-      '<table class="verdict-table">' +
+      '<div class="table-scroll"><table class="verdict-table">' +
         '<thead><tr><th>Enquête</th><th>Suspect perturbateur endocrinien</th><th>Verdict le concernant</th><th>Vrai coupable</th></tr></thead>' +
         '<tbody>' + rows + '</tbody>' +
-      '</table>' +
+      '</table></div>' +
 
       '<h2>La réponse à la question du dossier</h2>' +
       b.reponse.map(function (p) { return '<p>' + p + '</p>'; }).join('') +

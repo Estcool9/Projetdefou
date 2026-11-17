@@ -499,7 +499,9 @@ ol.indices li::before {
 
 /* ───────────────────── Bilan ───────────────────── */
 
-.verdict-table { width: 100%; border-collapse: collapse; font-size: 15px; margin-bottom: 26px; }
+/* sur petit écran, le tableau se fait glisser du doigt plutôt que de déborder */
+.table-scroll { max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.verdict-table { width: 100%; min-width: 440px; border-collapse: collapse; font-size: 15px; margin-bottom: 26px; }
 .verdict-table th, .verdict-table td { border-bottom: 1px solid var(--rule); padding: 10px 8px; text-align: left; }
 .verdict-table th {
   font-family: var(--type); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase;
@@ -544,7 +546,10 @@ ol.sources li { margin-bottom: 8px; }
 
 @media (max-width: 980px) {
   .recap-grid, .case-grid, .two-col { grid-template-columns: 1fr; gap: 28px; }
-  .reader-body { flex-direction: column-reverse; gap: 12px; }
+  /* en colonne, align-items: flex-start laissait la feuille prendre la largeur
+     de son contenu et déborder de l'écran : on la force à la largeur du cadre */
+  .reader-body { flex-direction: column-reverse; gap: 12px; align-items: stretch; }
+  .sheet-wrap { width: 100%; max-width: 100%; }
   .tabs {
     flex-direction: row; padding: 0 0 2px; width: 100%;
     overflow-x: auto; scrollbar-width: thin; -webkit-overflow-scrolling: touch;
