@@ -22,15 +22,14 @@
   var opened = false;
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* ── mémoire des accusations (pratique si la page est rechargée) ── */
+  /* ── mémoire des accusations : vit seulement le temps de la visite ──
+     On garde les verdicts quand on passe d'une enquête à l'autre, mais
+     rien n'est écrit dans le navigateur : chaque ouverture du site
+     repart d'un dossier vierge. */
   var choices = {};
-  try {
-    var saved = localStorage.getItem('dossier-2026-pe');
-    if (saved) { choices = JSON.parse(saved) || {}; }
-  } catch (e) { /* stockage indisponible : on continue sans */ }
-  function remember() {
-    try { localStorage.setItem('dossier-2026-pe', JSON.stringify(choices)); } catch (e) {}
-  }
+  // efface la mémoire des anciennes versions du site, si elle traîne encore
+  try { localStorage.removeItem('dossier-2026-pe'); } catch (e) {}
+  function remember() { /* volontairement vide : aucune sauvegarde */ }
 
   /* ───────────────────────── Rendu des pages ───────────────────────── */
 
@@ -430,16 +429,15 @@
     if (!opened) { openDossier(i); } else { go(i); }
   });
 
-  // lien direct vers une page : le dossier s'ouvre déjà à la bonne page
-  var hash = (location.hash || '').replace('#', '');
-  if (hash) {
-    for (var i = 0; i < PAGES.length; i++) {
-      if (PAGES[i].id === hash) {
-        reduced = true;              // pas d'animation d'ouverture sur un lien direct
-        openDossier(i);
-        reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        break;
-      }
+  /* Le site démarre toujours sur le dossier fermé, même si l'adresse
+     contient encore une ancienne ancre (#enquete-2…) proposée par
+     l'historique du navigateur. On nettoie l'adresse pour que la
+     prochaine saisie ne la repropose pas. */
+  if (location.hash) {
+    if (history.replaceState) {
+      history.replaceState(null, '', location.pathname + location.search);
+    } else {
+      location.hash = '';
     }
   }
 })();
