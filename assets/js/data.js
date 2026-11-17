@@ -30,13 +30,13 @@ window.DOSSIER = {
       titre: 'Léa, trente mois, une dizaine de mots',
       cohorte: 'Cohorte SELMA, Suède',
       sujet: { nom: 'Léa T.', age: '30 mois', situation: 'Cadette d’une fratrie de deux' },
-      question: 'Le retard de langage de Léa vient-il d’une exposition chimique pendant la grossesse, ou d’une autre cause que l’on confond souvent avec elle ?',
+      question: 'D’où vient le problème du retard de langage concernant Léa ?',
       contexte: [
-        'Au bilan obligatoire des deux ans et demi, Léa produit une dizaine de mots. À cet âge, la moyenne se situe bien au-dessus de cent. Le médecin ne se contente pas de rassurer : un écart de cette taille justifie une enquête complète, parce que le langage à trente mois prédit en partie la lecture et la réussite scolaire des années plus tard.',
-        'Ce qui n’est pas touché compte autant que ce qui l’est. Léa comprend tout ce qu’on lui dit et exécute sans aide des consignes à deux étapes — « va chercher ton manteau et donne-le à papa ». Elle joue normalement, imite son frère, cherche le regard des adultes et réclame leur attention. Seule la <em>production</em> de mots est déficitaire.',
-        'Son frère aîné, lui, prononçait ses premiers mots à quatorze mois. La famille vit depuis 2019 dans un logement neuf, meublé neuf à l’emménagement. Léa est en crèche depuis ses dix mois, dans un groupe où personne n’a signalé de difficulté particulière.',
-        'Les parents arrivent avec une conviction toute faite. Ils ont lu quelque part que « les plastiques rendent les enfants muets » et demandent un dosage. Le médecin accepte d’ouvrir une enquête, mais refuse de doser au hasard : il veut d’abord éliminer les causes fréquentes.',
-        'Car c’est là toute la difficulté. Un retard de langage à trente mois a quatre causes courantes qui produisent presque exactement le même tableau : compréhension normale, production faible. La question n’est pas de savoir si un perturbateur endocrinien <em>peut</em> provoquer cela — c’est documenté — mais si c’est bien lui, ici, chez cette enfant.'
+        'Lors du bilan obligatoire des deux ans et demi, Léa ne sort qu’une dizaine de mots. À cet âge, la moyenne se situe plutôt au-delà de cent mots. Le médecin ne prend pas l’affaire à la légère : un tel écart mérite d’être creusé, car le niveau de langage à trente mois influence la future aisance en lecture et la réussite scolaire.',
+        'Mais il faut prendre en compte autant ce qui est touché que ce qui ne l’est pas. Léa comprend tout ce qu’on lui dit et réussit sans aide des consignes en deux étapes, comme : « va chercher ton manteau et donne-le à papa ». Elle joue normalement, imite son grand frère, cherche le regard des adultes et réclame de l’attention. Seule la <em>parole</em> coince.',
+        'Son grand frère, lui, parlait beaucoup plus tôt (quatorze mois). La famille vit dans un appartement récent, et Léa va en crèche depuis ses dix mois, où tout se passe bien.',
+        'Les parents, eux, arrivent avec une idée fixe : ils ont vu passer sur Facebook une vidéo selon laquelle « les plastiques rendent les enfants muets », et réclament des analyses. Le médecin accepte d’investiguer, mais refuse de doser au hasard. Il veut d’abord écarter les causes les plus fréquentes.',
+        'C’est toute la complexité de la situation : à trente mois, un retard de langage avec une bonne compréhension peut recouvrir plusieurs réalités très proches. La question n’est pas de nier que certains polluants environnementaux peuvent peser sur le développement — c’est documenté —, mais de savoir si c’est bien la cause chez cette petite fille.'
       ],
       figures: [
         { key: 'enq1b', legende: 'Les trois familles de substances retrouvées ensemble dans les prélèvements de début de grossesse.' },
@@ -56,33 +56,33 @@ window.DOSSIER = {
           ref: 'A', pe: true,
           nom: 'Le mélange de perturbateurs endocriniens',
           type: 'phtalates · bisphénol A · composés perfluorés',
-          identite: 'Un cocktail de substances présentes en même temps dans le sang et l’urine de la grande majorité des femmes enceintes : emballages, contenants alimentaires, cosmétiques, poussière domestique.',
-          soupcon: 'La cible annoncée correspond exactement : l’étude européenne qui a identifié ce mélange a mesuré un retard de langage à 30 mois, l’âge précis de Léa.',
-          etudes: 'Dans la cohorte SELMA, jusqu’à 54 % des enfants avaient été exposés au-delà du niveau jugé préoccupant, et le risque de retard de langage était 3,3 fois plus élevé entre les 10 % les plus exposés et les 10 % les moins exposés.'
+          identite: 'Le mélange de substances est partout, invisible et insidieux : phtalates, bisphénol A, composés perfluorés. On les retrouve dans les emballages, les contenants alimentaires, les cosmétiques et même dans la poussière de nos maisons. Résultat : ce véritable cocktail chimique se mesure dans le sang et l’urine de la grande majorité des femmes enceintes.',
+          soupcon: 'Pourquoi les parents de Léa font-ils le lien ? Parce que la coïncidence est troublante. Une grande étude européenne a précisément mis en lumière ce mélange en observant des enfants à trente mois — l’âge exact de Léa.',
+          etudes: 'Les chiffres de la cohorte SELMA ont de quoi faire réfléchir : jusqu’à 54 % des enfants de l’étude avaient été exposés au-delà du seuil jugé préoccupant. Pire, le risque de retard de langage était plus de trois fois plus élevé chez les 10 % d’enfants les plus exposés par rapport aux 10 % les moins exposés. De quoi donner du poids aux craintes de la famille, même si le médecin, face à Léa, cherche à relier ces grandes tendances statistiques à la réalité clinique de la petite fille.'
         },
         {
           ref: 'B', pe: false,
           nom: 'Une surdité passée inaperçue',
           type: 'otites séreuses à répétition',
-          identite: 'Une baisse d’audition installée sans douleur, souvent après des otites répétées. L’enfant entend mal les sons aigus et n’apprend pas à les reproduire.',
-          soupcon: 'C’est la première cause à éliminer devant tout retard de langage. Un enfant qui entend mal comprend souvent par le contexte, ce qui masque longtemps le problème.',
-          etudes: 'Le dépistage auditif est recommandé avant tout autre bilan en cas de retard de langage, précisément parce que ce suspect est fréquent et traitable.'
+          identite: 'Parfois, une baisse de l’audition s’installe petit à petit, sans douleur, souvent après des épisodes d’otites à répétition. L’enfant entend moins bien les sons aigus et, par conséquent, a du mal à apprendre à les reproduire.',
+          soupcon: 'C’est pourtant la toute première cause que le médecin cherche à éliminer face à un retard de langage. Car la ruse est redoutable : un enfant qui entend de façon assourdie compense en devinant les choses grâce au contexte et aux gestes, ce qui masque le problème pendant de longs mois.',
+          etudes: 'C’est pourquoi, en pratique, les recommandations médicales sont claires : le dépistage de l’audition doit toujours passer avant tout le reste lorsqu’un enfant tarde à parler, s’agissant d’une piste à la fois fréquente et facile à soigner.'
         },
         {
           ref: 'C', pe: false,
           nom: 'Un environnement bilingue',
           type: 'deux langues à la maison',
-          identite: 'Un enfant exposé à deux langues répartit son vocabulaire entre les deux. Compté dans une seule langue, il paraît en retard alors qu’il ne l’est pas.',
-          soupcon: 'C’est l’origine d’un grand nombre de faux retards signalés à cet âge, et elle produit exactement le même tableau : compréhension normale, production faible.',
-          etudes: 'Le vocabulaire total d’un enfant bilingue, compté sur les deux langues réunies, est comparable à celui d’un enfant monolingue.'
+          identite: 'Lorsqu’un enfant grandit au rythme de deux langues, il ne double pas forcément son vocabulaire : il le répartit entre ses deux univers. Résultat, si l’on ne mesure ses mots que dans une seule langue, il donne l’impression d’être en retard, alors qu’il n’en est rien.',
+          soupcon: 'C’est le piège classique d’un grand nombre de faux retards de langage signalés à cet âge. Le tableau est trompeur, et identique à celui des autres pistes : l’enfant comprend parfaitement tout ce qu’on lui dit, mais sa production verbale semble faible.',
+          etudes: 'Pourtant, les études le confirment : si l’on additionne le vocabulaire de l’enfant bilingue dans ses deux langues réunies, son stock total de mots est tout à fait comparable à celui d’un enfant qui ne parle qu’une seule langue.'
         },
         {
           ref: 'D', pe: false,
           nom: 'Un trouble du spectre de l’autisme',
           type: 'trouble du neurodéveloppement',
-          identite: 'Trouble du neurodéveloppement dont le retard de langage est l’un des signes les plus précoces et les plus visibles.',
-          soupcon: 'À 30 mois, un vocabulaire très pauvre est l’un des premiers motifs de consultation qui aboutit à ce diagnostic.',
-          etudes: 'Le retard de langage y est accompagné d’autres signes : pointage absent, attention conjointe réduite, jeu symbolique pauvre, recherche limitée du regard.'
+          identite: 'Parfois, un tout petit vocabulaire cache un trouble du neurodéveloppement, comme un trouble du spectre de l’autisme. À trente mois, un retard de parole est d’ailleurs souvent l’un des tout premiers signaux qui amène les parents à consulter.',
+          soupcon: 'Mais le médecin ne s’arrête pas aux mots. Ce qui distingue cette piste, c’est que le retard de langage s’accompagne d’autres indices plus subtils : un enfant qui ne pointe pas du doigt pour montrer ce qui l’intéresse, qui partage moins facilement l’attention, dont le jeu est plus répétitif ou qui cherche moins le regard des autres.',
+          etudes: 'Les critères diagnostiques reposent sur cet ensemble de signes, et non sur le seul retard de parole : pointage, attention conjointe, jeu symbolique, recherche du regard. Rien à voir, donc, avec le profil de Léa, qui joue normalement, imite son frère, cherche le regard des adultes et réclame leur attention avec aisance.'
         }
       ],
       verdict: {
