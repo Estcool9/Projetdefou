@@ -532,23 +532,8 @@ ol.sources li { margin-bottom: 8px; }
 .src-use { font-family: var(--type); font-size: 10.5px; color: var(--seal); letter-spacing: .06em; }
 
 /* ── Déclaration d'usage de l'IA, en fin de bilan ── */
-.ia-note {
-  margin-top: 34px; max-width: 72ch;
-  border: 1px solid rgba(31, 28, 24, .22);
-  border-left: 3px solid var(--ink);
-  background: rgba(31, 28, 24, .035);
-  padding: 20px 22px 18px;
-}
-.ia-note h2 { margin-top: 0; }
-.ia-note > p { font-size: 15.5px; }
-.ia-list { margin: 16px 0 0; padding-left: 20px; }
-.ia-list li { margin-bottom: 11px; font-size: 15px; line-height: 1.62; }
-.ia-list li:last-child { margin-bottom: 0; }
-.ia-nous {
-  margin: 18px 0 0; padding-top: 14px;
-  border-top: 1px solid rgba(31, 28, 24, .2);
-  font-size: 15px;
-}
+.ia-note { margin-top: 30px; max-width: 72ch; }
+.ia-note p { margin: 0; font-size: 15.5px; }
 
 .signature {
   margin-top: 30px; border-top: 2px solid var(--ink); padding-top: 14px;

@@ -199,9 +199,7 @@
 
       (b.ia ? '<section class="ia-note">' +
         '<h2>' + b.ia.titre + '</h2>' +
-        '<p>' + b.ia.chapo + '</p>' +
-        '<ul class="ia-list">' + b.ia.faits.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul>' +
-        '<p class="ia-nous">' + b.ia.nous + '</p>' +
+        '<p>' + b.ia.texte + '</p>' +
       '</section>' : '') +
 
       '<p class="signature">' + D.meta.numero + ' — ' + D.meta.titre + ', ' + D.meta.sousTitre + '.<br>' +

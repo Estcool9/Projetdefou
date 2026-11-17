@@ -402,16 +402,8 @@ window.DOSSIER = {
       ['Conscrits norvégiens analysés, naissances 1962-1991', '730 000', 'PNAS, 2018']
     ],
     ia: {
-      titre: 'L’intelligence artificielle dans ce dossier',
-      chapo: 'Nous avons utilisé une intelligence artificielle, principalement Claude (Anthropic), pour réaliser ce dossier. Nous préférons dire précisément ce qu’elle a fait plutôt que de laisser la question en suspens.',
-      faits: [
-        '<strong>La forme du site.</strong> Le code de la page, l’animation du dossier qui s’ouvre, la mise en page des enquêtes et tous les schémas ont été produits par l’IA à partir de nos consignes.',
-        '<strong>La correction de la langue.</strong> Orthographe, accords et formulations maladroites dans les textes que nous avons rédigés.',
-        '<strong>La vérification des informations.</strong> Chaque chiffre et chaque mécanisme cité a été rapproché de l’étude d’origine. L’IA nous a signalé les affirmations que les sources ne soutenaient pas, pour que nous les corrigions ou les retirions&nbsp;: c’est ce qui nous a fait reformuler la question du dossier, qui parlait au départ de «&nbsp;stupidité&nbsp;».',
-        '<strong>La rédaction des quatre affaires.</strong> Les personnages — Léa, Noah, Inès et Guillaume — leurs symptômes et le déroulé de chaque enquête sont inventés&nbsp;; ils ont été écrits par l’IA autour des études réelles que nous voulions mettre en scène.',
-        '<strong>Le repérage des études.</strong> L’IA a proposé les cohortes citées plus haut, puis nous lui avons demandé les références précises de chacune afin de pouvoir les retrouver et les contrôler nous-mêmes.'
-      ],
-      nous: 'Ce que nous avons gardé&nbsp;: le sujet, le choix du format d’enquête, la structure du dossier, la répartition des coupables et des innocentés, le texte de ce bilan et la décision finale sur chaque affirmation. Quand une information rendait le dossier plus spectaculaire mais dépassait ce que disent les études, nous l’avons retirée.'
+      titre: 'Utilisation de l’intelligence artificielle',
+      texte: 'Nous avons utilisé une intelligence artificielle, principalement Claude, pour construire la forme du site, corriger les fautes d’orthographe et vérifier que les informations reprises dans ce dossier sont réellement exactes.'
     }
   }
 };
