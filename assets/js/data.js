@@ -114,7 +114,7 @@ window.DOSSIER = {
       question: 'L’effondrement de l’attention de Noah a-t-il une cause chimique, médicale, sociale — ou une cause que personne ne regarde ?',
       contexte: [
         'L’enseignante de CM1 signale une agitation permanente et une attention qui ne tient pas dix minutes. Les résultats se sont effondrés en un trimestre, dans toutes les matières à la fois, y compris celles où Noah excellait.',
-        'L’histoire d’avant est la pièce la plus importante du dossier. Du CP au CE2, les bulletins sont excellents et répètent la même formule : élève « calme et appliqué ». L’enseignante date la bascule avec précision — le mois de septembre dernier. Il y a donc un avant et un après, et l’enquête doit trouver ce qui s’est passé entre les deux.',
+        'L’histoire d’avant est la pièce la plus importante du dossier. Du CP au CE2, les bulletins sont régulièrement excellents : élève « calme et appliqué ». L’enseignante date la bascule avec précision — le mois de septembre dernier. Il y a donc un avant et un après, et l’enquête doit trouver ce qui s’est passé entre les deux.',
         'Les parents arrivent avec une demande précise : faire doser les polluants chez leur fils. Ils ont lu que « la pollution rend les enfants hyperactifs » et veulent une analyse de sang. Le médecin accepte, mais ouvre en parallèle une enquête complète sur les autres pistes.',
         'Leur soupçon est loin d’être absurde. L’hyperactivité fait partie des atteintes documentées pour les retardateurs de flamme : dans l’étude HOME, menée à Cincinnati, l’exposition avant la naissance est associée à une hausse de 3,3 points du score d’hyperactivité à cinq ans, et à un QI plus bas — même après avoir tenu compte du QI de la mère. Le suspect a un vrai mobile.',
         'Quatre pistes restent ouvertes : une exposition chimique ancienne, un trouble de l’attention jamais repéré, une souffrance scolaire, ou le mode de vie. L’arme qui tranchera cette enquête n’est pas une analyse de sang : c’est un calendrier.'
@@ -126,7 +126,7 @@ window.DOSSIER = {
       indices: [
         { txt: 'Bulletins du CP au CE2 : excellents, avec la mention répétée d’un élève « calme et appliqué ». L’enseignante date la bascule du mois de septembre dernier.', src: 'Dossier — bulletins scolaires' },
         { txt: 'Le diagnostic de trouble de l’attention exige des symptômes présents <strong>avant 12 ans</strong>, dans <strong>au moins deux contextes</strong>, et <strong>durables dans le temps</strong>. Ici, aucun symptôme n’existait avant l’âge de 8 ans.', src: 'Critère médical — critères diagnostiques du TDAH' },
-        { txt: 'Emploi du temps déclaré : coucher vers 23 h 30, tablette jusqu’à l’extinction de la lumière, lever à 6 h 30. Soit sept heures de sommeil pour un âge où dix sont recommandées.', src: 'Dossier — carnet de sommeil tenu deux semaines' },
+        { txt: 'Emploi du temps déclaré : coucher vers 23 h 30, tablette jusqu’à l’extinction de la lumière, lever à 6 h 30. Soit sept heures de sommeil, pour un âge où la recommandation va de neuf à douze heures.', src: 'Dossier — carnet de sommeil tenu deux semaines' },
         { txt: 'Noah décrit sa classe comme « sympa », a gardé les mêmes amis, ne refuse jamais d’aller à l’école, et son agitation est tout aussi marquée le samedi matin à la maison qu’en classe.', src: 'Dossier — entretien avec l’enfant et les parents' },
         { txt: 'Le mobilier du domicile a été entièrement acheté en 2021, et le logement date de 2008. Analyse de la poussière domestique : aucune trace significative de composés bromés.', src: 'Dossier — prélèvement environnemental' },
         { txt: 'Les retardateurs de flamme ont été largement retirés du marché, et leurs concentrations <strong>baissent</strong> dans la population générale depuis une quinzaine d’années. Une exposition en hausse ne peut donc pas expliquer une dégradation récente.', src: 'Suivi des niveaux de PBDE en population' },
@@ -138,15 +138,15 @@ window.DOSSIER = {
           ref: 'A', pe: true,
           nom: 'Les retardateurs de flamme',
           type: 'PBDE · BDE-47 · perturbateur endocrinien',
-          identite: 'Composés bromés ajoutés aux mousses de canapés, aux tapis et aux boîtiers électroniques. Leur structure ressemble à celle des hormones thyroïdiennes : ils se font passer pour elles.',
-          soupcon: 'L’hyperactivité est précisément l’atteinte que les études leur attribuent, et ils sont présents dans la poussière de n’importe quel salon meublé avant les années 2010.',
-          etudes: 'Étude HOME, Cincinnati, 309 femmes prélevées à la 16ᵉ semaine de grossesse : QI plus bas à 5 ans même après prise en compte du QI de la mère, et hausse de 3,3 points du score d’hyperactivité.'
+          identite: 'On les trouve nichés dans les mousses de nos canapés, les tapis ou encore les boîtiers électroniques. Ces composés bromés ont une structure chimique si proche de nos hormones thyroïdiennes qu’ils réussissent à se faire passer pour elles dans l’organisme.',
+          soupcon: 'Leur profil a de quoi inquiéter : ce sont précisément des troubles de type hyperactivité que les études leur associent, et ils se cachent dans la poussière de n’importe quel salon meublé avant les années 2010.',
+          etudes: 'Les résultats de la cohorte HOME menée à Cincinnati sont d’ailleurs parlants. Après avoir suivi 309 femmes enceintes dès la seizième semaine de grossesse, les chercheurs ont observé chez les enfants, à l’âge de 5 ans, une baisse du QI (même en tenant compte du QI de la mère) ainsi qu’une hausse de 3,3 points du score d’hyperactivité.'
         },
         {
           ref: 'B', pe: false,
           nom: 'La dette de sommeil',
           type: 'écrans le soir · coucher tardif',
-          identite: 'Un déficit de sommeil chronique, entretenu par les écrans en soirée. À neuf ans, le besoin se situe autour de dix heures par nuit.',
+          identite: 'Un déficit de sommeil chronique, entretenu par les écrans en soirée. Entre six et douze ans, la recommandation est de neuf à douze heures par nuit.',
           soupcon: 'Un enfant en manque de sommeil ne s’endort pas en classe : il s’agite. C’est le symptôme trompeur par excellence.',
           etudes: 'Le lien entre dette de sommeil chronique, attention et résultats scolaires est établi, et constitue un facteur de confusion majeur dans toutes les recherches sur l’environnement et les apprentissages.'
         },
